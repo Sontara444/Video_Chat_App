@@ -7,7 +7,7 @@ const HomePage = () => {
 
   const handleSubit= (e)=>{
     e.preventDefault()
-    console.log(input)
+    alert(input)
     navigate(`/room/${input}`)
     setInput("");
   }
